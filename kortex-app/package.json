@@ -15,16 +15,20 @@
     "@tsparticles/slim": "^3.5.0",
     "clsx": "^2.1.1",
     "framer-motion": "^11.3.23",
+    "lodash.throttle": "^4.1.1",
     "next": "14.2.5",
     "react": "^18",
     "react-dom": "^18",
     "react-element-to-jsx-string": "^15.0.0",
-    "tailwind-merge": "^2.4.0"
+    "react-window": "^1.8.10",
+    "tailwind-merge": "^2.4.0",
+    "use-throttle": "^0.0.3"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/react-window": "^1.8.8",
     "eslint": "^8",
     "eslint-config-next": "14.2.5",
     "postcss": "^8",

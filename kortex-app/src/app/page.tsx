@@ -85,9 +85,7 @@ export default function Home() {
       <section className="h-fit">
         <HeroParallax products={products} />
       </section>
-      <section className="text-title-color 2xl:text-left text-center text-5xl font-black leading-snug ">
-        CUZINHO
-      </section>
+      <section className="text-title-color 2xl:text-left text-center text-5xl font-black leading-snug "></section>
     </div>
   );
 }

@@ -11,7 +11,7 @@ export function GridComponent() {
   return (
     <div className="w-[712px] flex flex-col gap-5">
       <div className="flex flex-col gap-5 md:flex-row w-full">
-        <div className="bg-grey-color w-full border border-white/[0.08] rounded-3xl text-p-color p-6 sm:p-10 flex flex-col justify-center items-center gap-2 min-h-fit">
+        <div className="bg-grey-color w-full border border-white/[0.08] rounded-3xl text-p-color p-6 sm:p-10 flex flex-col justify-center gap-2 min-h-fit">
           <Image
             src={Design}
             alt="Design sob medida image"
@@ -35,7 +35,7 @@ export function GridComponent() {
           />
         </div>
       </div>
-      <div className="bg-grey-color w-full rounded-3xl p-6 sm:p-10 flex flex-col justify-center items-center gap-2 min-h-fit">
+      <div>
         <TextRevealCard text={"Seu Projeto"} revealText={"Nossa estrutura"}>
           <TextRevealCardTitle>
             Suporte Técnico e Manutenção
