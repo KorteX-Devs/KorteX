@@ -12,6 +12,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        xs: "450px",
+      },
       animation: {
         shimmer: "shimmer 2s linear infinite",
       },
