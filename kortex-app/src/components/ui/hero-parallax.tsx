@@ -57,7 +57,7 @@ export const HeroParallax = ({
   return (
     <div
       ref={ref}
-      className="h-[230vh] py-40 overflow-hidden  antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
+      className="h-[300vh] py-40 overflow-hidden  antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
     >
       <Header />
       <motion.div
@@ -104,10 +104,10 @@ export const HeroParallax = ({
 export const Header = () => {
   return (
     <div className="w-full relative flex flex-col px-40 max-sm:px-20 gap-5 max-2xl:items-center max-xs:px-3">
-      <h1 className="text-title-color text-3xl font-semibold leading-snug 2xl:text-left">
+      <h1 className="text-title-color text-5xl font-semibold leading-snug 2xl:text-left max-sm:text-3xl">
         Conheça nossos projetos
       </h1>
-      <p className="text-p-color lg:w-1/2 text-lg font-semibold leading-snug max-xs:text-sm max-xs:text-center">
+      <p className="text-p-color lg:w-1/2 text-xl font-semibold leading-snug max-xs:text-sm max-xs:text-center">
         Combinamos inovação tecnológica e uma compreensão profunda das
         necessidades dos nossos clientes para entregar soluções que superam
         expectativas. Nosso time dedicado de especialistas trabalha com as
