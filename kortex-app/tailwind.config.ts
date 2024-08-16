@@ -14,6 +14,7 @@ const config: Config = {
 		extend: {
 			screens: {
 				xs: "450px",
+				"3xl": "1820px",
 			},
 			animation: {
 				shimmer: "shimmer 2s linear infinite",
