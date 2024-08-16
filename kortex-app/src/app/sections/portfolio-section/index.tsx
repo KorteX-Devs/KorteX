@@ -1,11 +1,12 @@
-import { HeroParallax } from "@/components/ui/hero-parallax";
 import React from "react";
-import { projects } from "@/app/data/portfolioInfo";
+import { TabsDemo } from "./tabs-demo";
+import Badge from "@/components/badge";
 
 function PortfolioSection() {
 	return (
-		<section className="h-fit">
-			<HeroParallax products={projects} />
+		<section className="min-h-[100vh] h-fit p-10 flex flex-col items-center">
+			<Badge>Nossos projetos</Badge>
+			<TabsDemo />
 		</section>
 	);
 }
