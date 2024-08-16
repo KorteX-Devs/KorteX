@@ -43,7 +43,7 @@ export const Tabs = ({
 		<>
 			<div
 				className={cn(
-					"flex flex-row xl:flex-col 2xl:flex-row h-fit items-start 2xl:items-center justify-center [perspective:1500px] relative overflow-auto sm:overflow-visible no-visible-scrollbar w-fit 2xl:max-w-full 2xl:w-full",
+					"flex flex-row xl:flex-col xl:gap-3 2xl:flex-row h-fit items-start 2xl:items-center justify-center [perspective:1500px] relative overflow-auto sm:overflow-visible no-visible-scrollbar w-fit 2xl:max-w-full 2xl:w-full",
 					containerClassName
 				)}
 			>
@@ -71,7 +71,7 @@ export const Tabs = ({
 							/>
 						)}
 
-						<span className="relative block text-black text-xs md:text-xl text-left dark:text-white">
+						<span className="relative block text-black text-xs md:text-xl w-fit text-left dark:text-white">
 							{tab.title}
 						</span>
 					</button>
@@ -82,7 +82,7 @@ export const Tabs = ({
 				active={active}
 				key={active.value}
 				hovering={hovering}
-				className={cn("mt-32", contentClassName)}
+				className={cn("mt-20", contentClassName)}
 			/>
 		</>
 	);

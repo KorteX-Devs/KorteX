@@ -4,7 +4,7 @@ import Badge from "@/components/badge";
 
 function PortfolioSection() {
 	return (
-		<section className="h-fit p-10 flex flex-col items-center">
+		<section className="min-h-[100vh] h-fit p-10 flex flex-col items-center">
 			<Badge>Nossos projetos</Badge>
 			<TabsDemo />
 		</section>

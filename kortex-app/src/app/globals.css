@@ -11,3 +11,7 @@
 .no-visible-scrollbar::-webkit-scrollbar {
 	display: none;
 }
+
+* {
+	scrollbar-width: none;
+}
