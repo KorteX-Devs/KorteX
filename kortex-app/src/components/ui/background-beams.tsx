@@ -24,3 +24,5 @@ export const BackgroundBeams = React.memo(() => {
     </span>
   );
 });
+
+BackgroundBeams.displayName = "BackgroundBeams";
