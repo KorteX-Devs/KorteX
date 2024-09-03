@@ -6,7 +6,7 @@ import { Footer } from "@/components/footer";
 
 export default function Home() {
   return (
-    <div className=" min-h-screen flex flex-col gap-[10rem] bg-site-background">
+    <div className=" min-h-screen flex flex-col gap-[10rem] bg-site-background overflow-x-hidden">
       <HeroSection />
       <PortfolioSection />
       <RatingsSection />
