@@ -1,21 +1,14 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 .all {
   overflow: hidden;
 }
-section {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-}
 .span {
-  position: absolute;
+  position: relative;
   top: 0%;
-  left: 50%;
+  left: 0%;
   height: 4px;
   width: 4px;
   background: #fff;
@@ -31,6 +24,7 @@ section {
   left: 0%;
   transform: translateY(-50%);
   width: 300px;
+  overflow-x: hidden;
   height: 1px;
   background: linear-gradient(90deg, #fff, transparent);
 }
