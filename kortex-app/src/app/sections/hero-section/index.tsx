@@ -6,7 +6,10 @@ import Image from "next/image";
 
 export function HeroSection() {
   return (
-    <section className="flex justify-center w-full h-fit min-h-[100vh]">
+    <section
+      id="hero-section"
+      className="flex justify-center w-full h-fit min-h-[100vh]"
+    >
       <BackgroundBeams />
       <Image
         src={image}

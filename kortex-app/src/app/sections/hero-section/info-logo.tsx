@@ -1,7 +1,9 @@
+"use client";
 import { FlipWords } from "@/components/ui/flip-words";
 import MagicButton from "@/components/ui/magic-button";
 import Image from "next/image";
 import KorteXLogo from "@/assets/KorteX.svg";
+import { handleScroll } from "@/generals/handleScroll";
 
 export function InfoComponent() {
   return (
@@ -33,7 +35,9 @@ export function InfoComponent() {
             <br /> satisfeito.
           </p>
         </div>
-        <MagicButton> Confira nossos serviços </MagicButton>
+        <MagicButton onClick={() => handleScroll("#portifolio")}>
+          Confira nossos serviços
+        </MagicButton>
       </div>
     </div>
   );
