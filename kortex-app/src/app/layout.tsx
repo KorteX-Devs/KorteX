@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "KorteX",
   description:
     "KorteX is a forward-thinking web development company dedicated to delivering high-quality digital experiences.",
+  icons: {
+    icon: "/Logo-kortex-simples.svg",
+  },
 };
 
 export default function RootLayout({

@@ -32,7 +32,7 @@ export function Footer() {
           </button>
           <a href="#">
             <Image
-              src="/Linkedin.svg"
+              src="/linkedin.svg"
               alt="linkedin logo"
               width={40}
               height={40}
