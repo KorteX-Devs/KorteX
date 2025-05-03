@@ -2,7 +2,7 @@ import React from "react";
 
 function HeroSection() {
 	return (
-		<section className="w-full items-center justify-center gap-15 min-h-screen flex flex-col">
+		<section className="w-full items-center justify-center gap-15 max-h-screen flex flex-col">
 			<h1 className="text-center">
 				Crescer com consistência. <br />
 				<span className="bg-linear-to-r from-[#473BF0] via-[#00E2FD] to-[#871AFE] bg-clip-text text-transparent">

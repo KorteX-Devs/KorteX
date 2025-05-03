@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function Company() {
 	return (
-		<section className="w-full flex flex-row-reverse mt-44 justify-between">
+		<section className="w-full flex flex-row-reverse justify-between">
 			<div className="w-1/2 flex flex-col gap-5">
 				<h2 className="mb-5">
 					Onde{" "}

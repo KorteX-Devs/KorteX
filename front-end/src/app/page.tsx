@@ -3,6 +3,9 @@ import Header from "./header";
 import HeroSection from "./hero-section";
 import Services from "./services";
 import Company from "./company";
+import Clients from "./clients";
+import Contacts from "./contacts";
+import Footer from "./footer";
 
 export default function Home() {
 	return (
@@ -21,12 +24,15 @@ export default function Home() {
 				height={100}
 				className="w-3/4 h-full z-20 absolute bottom-[100px] left-70"
 			/>
-			<div className="w-full max-w-[1234px] self-center flex flex-col py-6 justify-center">
+			<div className="w-full max-w-[1234px] gap-60 self-center flex flex-col py-6 justify-center">
 				{" "}
 				<Header />
 				<HeroSection />
 				<Services />
 				<Company />
+				<Clients />
+				<Contacts />
+				<Footer />
 			</div>
 		</div>
 	);
