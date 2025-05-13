@@ -60,8 +60,11 @@ function Contacts() {
   };
 
   return (
-    <section id="contatos" className="flex">
-      <div className="w-1/2 flex flex-col gap-5">
+    <section
+      id="contatos"
+      className="flex flex-col lg:flex-row items-center justify-center gap-8"
+    >
+      <div className="w-3/4 flex flex-col gap-5">
         <h2>
           Entre em contato com a{" "}
           <span className="bg-linear-to-r from-[#473BF0] via-[#00E2FD] to-[#871AFE] bg-clip-text text-transparent">
@@ -84,7 +87,7 @@ function Contacts() {
           ajudar você a alcançar seus objetivos.
         </p>
       </div>
-      <div className="w-1/2">
+      <div className="w-3/4">
         <div className="mb-2">
           <input
             maxLength={80}

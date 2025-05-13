@@ -5,9 +5,9 @@ function Company() {
   return (
     <section
       id="empresa"
-      className="w-full flex flex-row-reverse justify-between"
+      className="w-full flex flex-col-reverse lg:flex-row-reverse justify-center items-center mb-20"
     >
-      <div className="w-1/2 flex flex-col gap-5">
+      <div className="w-3/4 flex flex-col gap-5">
         <h2 className="mb-5">
           Onde{" "}
           <span className="bg-linear-to-r from-[#473BF0] via-[#00E2FD] to-[#871AFE] bg-clip-text text-transparent">

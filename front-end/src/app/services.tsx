@@ -5,7 +5,7 @@ function Services() {
   return (
     <section
       id="servicos"
-      className="flex flex-col gap-15 items-center lg:p-0 p-10"
+      className="flex flex-col gap-15 items-center p-0 h-full mt-20"
     >
       <h2 className="max-w-[800px] text-center">
         Como podemos{" "}
@@ -14,11 +14,10 @@ function Services() {
         </span>{" "}
         o seu negócio.
       </h2>
-      <div className="w-full flex flex-col justify-center items-center gap-10 h-full">
-        <div className="h-1/2 w-full flex flex-col justify-center lg:flex-row gap-10">
-          <div className="flex flex-col gap-4 -bg-linear-60 from-[#8d8d8d09] from-0% to-100% h-full relative to-[#ffffff0c] lg:w-1/2 rounded-3xl border-2 border-[#ffffff09]">
-            <div className="flex flex-col gap-4 p-10 w-2/3">
-              {" "}
+      <div className="w-full flex flex-col gap-10 h-full lg:p-0 p-10">
+        <div className="h-full w-full flex flex-col lg:flex-row gap-10">
+          <div className="flex flex-col -bg-linear-60 from-[#8d8d8d09] from-0% to-100% to-[#ffffff0c] w-full lg:w-2/5 rounded-3xl border-2 border-[#ffffff09]">
+            <div className="flex flex-col gap-4 p-10 h-full">
               <h3>Desenvolvimento de software</h3>
               <p>
                 Criamos aplicações sob medida para atender às necessidades
@@ -32,12 +31,12 @@ function Services() {
               alt="Luz gradiente"
               width={2440}
               height={1080}
-              className="w-2/3 h-fit rounded-br-3xl z-20 self-end "
+              className="w-2/3 h-full rounded-br-3xl z-20 self-end "
             />
           </div>
-          <div className="lg:w-1/2 w-full flex flex-col gap-10">
-            <div className="flex flex-col-reverse lg:flex-row gap-4 bg-gradient-to-r from-[#8d8d8d09] to-[#ffffff0c] w-full relative h-2/3 rounded-3xl border-2 border-[#ffffff09]">
-              <div className="flex flex-col gap-4 items-center justify-center ml-10 w-1/2">
+          <div className="w-full lg:w-3/5 flex flex-col gap-10">
+            <div className="flex flex-col-reverse lg:flex-row gap-4 bg-gradient-to-r from-[#8d8d8d09] to-[#ffffff0c] w-full h-2/3 rounded-3xl border-2 border-[#ffffff09]">
+              <div className="flex flex-col gap-4 p-10 -bg-linear-60 from-0% to-100% w-full justify-center">
                 <h3>Concepção de software</h3>
                 <p>
                   Combinamos criatividade e conhecimento técnico para propor
@@ -63,7 +62,7 @@ function Services() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col-reverse md:flex-row-reverse gap-4 bg-gradient-to-r from-[#8d8d8d09] to-[#ffffff0c] justify-between w-full relative h-1/2 rounded-3xl border-2 border-[#ffffff09]">
+        <div className="flex flex-col-reverse lg:flex-row-reverse gap-4 bg-gradient-to-r from-[#8d8d8d09] to-[#ffffff0c] justify-between w-full relative h-1/2 rounded-3xl border-2 border-[#ffffff09]">
           <div className="flex flex-col gap-4 p-10 w-full lg:w-2/3">
             <h3>Design de Arquitetura de Software</h3>
             <p>

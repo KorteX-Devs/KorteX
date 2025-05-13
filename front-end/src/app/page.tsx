@@ -24,12 +24,15 @@ export default function Home() {
         height={100}
         className="w-full h-4/5 top-0 absolute"
       />
-      <div className="w-full max-w-[1234px] gap-60 self-center flex flex-col py-6 justify-center">
-        {" "}
+      <div className="w-full max-w-[1234px] gap-20 self-center flex flex-col py-6 justify-center">
         <Header />
         <HeroSection />
+      </div>
+      <div className="w-full max-w-[1234px] gap-10 self-center flex flex-col py-6 justify-center">
         <Services />
         <Company />
+      </div>
+      <div className="w-full max-w-[1234px] gap-44 self-center flex flex-col py-6 justify-center">
         <Clients />
         <Contacts />
         <Footer />
