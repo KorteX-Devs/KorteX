@@ -24,7 +24,7 @@ function HeroSection() {
           onClick={() => scrollIntoView("servicos")}
           className="text-md bg-[#4343f15e] px-12 py-5 rounded-lg cursor-pointer hover:bg-[#4343f191] duration-300"
         >
-          Conheça os serviços
+          Conheça nossos serviços
         </button>
         <p>Atuando desde 2022</p>
       </div>

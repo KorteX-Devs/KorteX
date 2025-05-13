@@ -3,7 +3,10 @@ import Image from "next/image";
 
 function Services() {
   return (
-    <section id="servicos" className="flex flex-col gap-15 items-center">
+    <section
+      id="servicos"
+      className="flex flex-col gap-15 items-center lg:p-0 p-10"
+    >
       <h2 className="max-w-[800px] text-center">
         Como podemos{" "}
         <span className="bg-linear-to-r from-[#473BF0] via-[#00E2FD] to-[#871AFE] bg-clip-text text-transparent">

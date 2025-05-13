@@ -15,7 +15,7 @@ export function scrollIntoView(id: string) {
 
 function Header() {
   return (
-    <header className="w-full flex justify-between items-center z-50">
+    <header className="w-full flex flex-wrap md:justify-between md:gap-0 gap-10 justify-center items-center z-50">
       <div className="flex items-center gap-6">
         <Image
           src="assets/kortex-logo.svg"
@@ -25,7 +25,7 @@ function Header() {
         />
         <p className="font-medium text-2xl text-zinc-50">Kortex</p>
       </div>
-      <ul className="flex gap-8">
+      <ul className="flex flex-wrap items-center justify-center gap-8">
         <li>
           <button
             className="cursor-pointer"
