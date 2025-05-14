@@ -5,7 +5,7 @@ import Image from "next/image";
 
 function Footer() {
   return (
-    <footer className="w-full h-20 flex items-center justify-center text-p-color mb-20">
+    <footer className="w-full h-20 flex items-center justify-center text-p-color mb-0">
       <div className="flex w-full max-w-[1240px] md:flex-row flex-col-reverse items-center gap-4 justify-around">
         <p>&copy; 2025 KorteX.</p>
         <div className="flex justify-between w-60">
