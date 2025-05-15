@@ -4,23 +4,25 @@ import { satoshi } from "@/fonts/satoshi";
 import { spaceGrotesk } from "@/fonts/space-grotesk";
 
 export const metadata: Metadata = {
-	title: "Kortex Tecnologia",
-	description: "Comprometida com a inovação e a excelência em tecnologia.",
+  title: "Kortex Tecnologia",
+  description: "Comprometida com a inovação e a excelência em tecnologia.",
 };
 
 export default function RootLayout({
-	children,
+  children,
 }: Readonly<{
-	children: React.ReactNode;
+  children: React.ReactNode;
 }>) {
-	return (
-		<html lang="en">
-			<body
-				className={`${satoshi.variable} ${spaceGrotesk.variable} antialiased`}
-			>
-				{children}
-			</body>
-		</html>
-	);
+  return (
+    <html lang="en">
+      <head>
+        <link rel="icon" href="/assets/kortex-logo.svg" />
+      </head>
+      <body
+        className={`${satoshi.variable} ${spaceGrotesk.variable} antialiased`}
+      >
+        {children}
+      </body>
+    </html>
+  );
 }
-
